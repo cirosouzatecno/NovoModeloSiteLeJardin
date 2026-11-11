@@ -1,0 +1,1 @@
+{"name":"lejardin-nouveau","version":"1.0.0","private":true,"description":"Redesign imersivo da Le Jardin","scripts":{"dev":"node server.mjs","start":"node server.mjs","check":"node --check dist/app.js && node --check dist/catalog.js && node --check server.mjs","test":"node --test tests/interaction.test.mjs","build":"npm run check && npm test"},"engines":{"node":">=18"}}
